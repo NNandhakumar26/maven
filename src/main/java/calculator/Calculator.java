@@ -1,4 +1,3 @@
-package calculator;
 
 import java.awt.event.*; 
 import javax.swing.*; 
