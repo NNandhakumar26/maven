@@ -3,10 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nandha</groupId>
-	<artifactId>calculator</artifactId>
+	<artifactId>GUI_Calculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -73,19 +71,20 @@
 
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.levigo/gwt-awt -->
+		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
-			<groupId>com.levigo</groupId>
-			<artifactId>gwt-awt</artifactId>
-			<version>0.0.1</version>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>8.0.1</version>
+			<scope>provided</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.miglayout/miglayout -->
-		<dependency>
-			<groupId>com.miglayout</groupId>
-			<artifactId>miglayout</artifactId>
-			<version>3.7.4</version>
-		</dependency>
+
 
 
 	</dependencies>
+
+
+
+
+
 </project>
